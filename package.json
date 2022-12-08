@@ -5,7 +5,6 @@
   "main": "./lib/index.js",
   "types": "./index.d.ts",
   "module": "./lib/index.mjs",
-  "dependencies": {},
   "exports": {
     ".": {
       "require": "./lib/index.js",
@@ -98,5 +97,6 @@
       "eslint --cache --fix",
       "prettier --ignore-unknown --write"
     ]
-  }
+  },
+  "packageManager": "yarn@3.3.0"
 }
